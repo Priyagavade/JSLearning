@@ -21,4 +21,3 @@ console.log(firstname,lastname,age);
 console.log(address,pinCode);
 console.log(gender,isMarried);
 
-
