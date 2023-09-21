@@ -20,8 +20,11 @@ console.log("________________________________________________________");
 
 console.log("***************NULL vs UNDEFINED******************");
 
+console.log("______________type 1_______________________");
 var x = null;
 console.log( "Value of X,",x,",type:->",typeof null);
+
+console.log("______________type 2_______________________");
 
 var y
 console.log("value of y:-",y,",type->",typeof y);
