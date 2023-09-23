@@ -21,10 +21,10 @@ console.log(isMarried, typeof isMarried);
 
 console.log('--------null vs undefined-------');
 var accountNumber;
-console.log(accountNumber);
+console.log(accountNumber,typeof accountNumber);
 accountNumber = null
-console.log(accountNumber)
+console.log(accountNumber,typeof accountNumber)
 
-var isHandicap = false;
-console.log(isHandicap, typeof(isHandicap));
+// var isHandicap = false;
+// console.log(isHandicap, typeof(isHandicap));
 
