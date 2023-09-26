@@ -1,5 +1,5 @@
 console.log("---------------------------------ques1-----------------------------");
-function stringBasic(params) {
+function stringBasic() {
     console.log("My dream company is Wipro");
 }
 stringBasic()
