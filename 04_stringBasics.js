@@ -56,11 +56,14 @@ console.log("========== trim() =============== ");
 var str = "   Good Afternoon  ";
 var lengthBeforeTrim = str.length;
 console.log("Length before trim : ", str.length);
+
 var result = str.trim();
 console.log("Length after trim: ", result.length);
+
 var lengthAfterTrim = result.length;
 var result = lengthBeforeTrim - lengthAfterTrim;
 console.log('Removed extra spaces are: ', result);
+
 
 console.log("========== includes() =============== ");
 var result = greet.includes('Morning');
