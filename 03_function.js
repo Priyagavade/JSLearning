@@ -29,5 +29,5 @@ function square(num){
    var result = num * num; 
    return result;
 }
-var squareNum = square(5);
-console.log('Num is 5 and its square is: ', squareNum);
+var result = square(5);
+console.log('Num is 5 and its square is: ', result);

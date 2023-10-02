@@ -11,7 +11,7 @@ console.log("bank name-",bankName,"date type->,",typeof bankName);
 console.log("                    ");
 console.log("_______________after initilization ______________________");
 console.log("                    ");
-var bankName="SBI bank";
+ bankName="SBI bank";
 console.log("bank name-",bankName,"date type->,",typeof bankName);
 
 console.log("______________step2_________________");

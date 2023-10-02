@@ -48,13 +48,13 @@ console.log(`___________step 5__________`);
 
 var string=function()
 {
-    var str='JS themostpopular language of internate';
+    var str='JS the most popular language of internat';
 
     console.log('1)-total character available in string:',str.length);
 
-    console.log('2)-Char stored at index 6 is: ', str.charAt(6));
+    console.log(`2)-Char stored at index 6 is: " " ${str.charAt(6)}`);
 
-    console.log('3)-Char stored at index 11 is: ', str.charAt(11));
+    console.log(`3)-Char stored at index 11 is: " "  ${str.charAt(11)}`);
 
    // console.log('last character is : ', str.length-1);
     var lastIndexChar = str.charAt(str.length-1);
@@ -68,6 +68,7 @@ var string=function()
 
     var words = str.split(" ");
    // console.log(words);
-    console.log(`7)-Total words is:  ${words.length}`);
+    console.log(`7)-Total words is:  ${words.length} and the squere of its ${square(words.length)}`);
+
 }
 string();
