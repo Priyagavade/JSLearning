@@ -1,3 +1,4 @@
+const PromptSync = require("prompt-sync");
 
 function checkLeapYear(year) {
 
@@ -10,9 +11,12 @@ function checkLeapYear(year) {
 }
 
 // take input
-const year = prompt('Enter a year:');
 
-checkLeapYear(year);
+
+checkLeapYear(2022);
+checkLeapYear(2021);
+checkLeapYear(2024);
+
 
 
 
