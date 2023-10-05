@@ -13,14 +13,36 @@ console.log(`Total number of vowels are: ${count}`);
 
 console.log("_____________________________________________________________________________________________");
 
- function cube(val)
+function cubes(params) {
   
- {
-    var sum=0;
-    for (let index = 1; index <=10 ; index++) {
-      sum+=index*index*index;
-      return sum;
-    }
+
+ var sum=0;
+ for (let index = 1; index <=5; index++) {
+
+   sum= sum+index*index*index;
   
  }
-console.log(`sum of cube is ${sum}`);
+ console.log(`sum of cube ${sum}`);
+}
+cubes();
+
+
+ console.log("_____________________________________________________________________________________________");
+
+ function oddpositioncharA(str) {
+
+
+
+  for (let index = 0; index < str.length; index++)
+   {
+    var char = str.charAt(index);
+    if (index%2!==0) {
+   console.log(index+"");
+     
+    }
+   }
+   
+ } 
+
+ oddpositioncharA(`Hard work always pays back`);
+ oddpositioncharA(`Soon i will be UI IT champ`);
