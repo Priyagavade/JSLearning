@@ -15,3 +15,7 @@ for (let index = 0; index < arrayNumbers.length; index++) {
     
 }
 console.log(`sum the array element :-  ${sum}`);
+
+
+
+
