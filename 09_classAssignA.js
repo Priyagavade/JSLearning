@@ -54,18 +54,18 @@ console.log(`----------------------------------------step 1(traverse array)-----
 }
 console.log(`--------------------------------------------step 2 (using method)------------------------------------`);
 const college1=new College("VPKBIET","SPPU ","9","A+");
-console.log(`college1  display: ${college1.college_name},${college1.university}, ${college1.department}, ${college1.NACRank} `);
+console.log(`college1  display:college_name: ${college1.college_name},university:${college1.university},department: ${college1.department},NACrank: ${college1.NACRank} `);
 
  const college2=new College("BATU","BATU",7,"A");
- console.log(`college2 display:${college2.college_name},${college2.university},${college2.department},${college2.NACRank}`);
+ console.log(`college2 display:college_name:${college2.college_name},university:${college2.university},department:${college2.department},NACrank:${college2.NACRank}`);
 
 
 const college3=new College("COEP","SPPU",9,"A+");
-console.log(`college3 display:${college3.college_name},${college3.university},${college3.department},${college3.NACRank}`);
+console.log(`college3 display:college_name:${college3.college_name},university:${college3.university},department:${college3.department},NACrank:${college3.NACRank}`);
 
 
  const college4=new College("DY.PATIL","SPPU",7,"A");
- console.log(`college4 display:college name:${college4.college_name},${college4.university},${college4.department},${college4.NACRank}`);
+ console.log(`college4 display:college name:${college4.college_name},university:${college4.university},department:${college4.department},NACrank:${college4.NACRank}`);
 
  function traverse(objectcollege)
  {
