@@ -14,14 +14,14 @@ console.log(`Bank details of  SBI bank:--->bank_name:-${sbiBank.bankName},Locati
 //console.log(sbiBank.bankName, sbiBank.Location, sbiBank.ifcCode,sbiBank.branchCode);
 console.log(`                                                                                        `);
 const mahBank=new bank("MAHA","raigad",564678,"B564");
-console.log(`Bank details of  SBI bank:--->bank_name:-${mahBank.bankName},Location:--${mahBank.Location},ifcCode:--${mahBank.ifcCode},branchCode:--${mahBank.branchCode}`);
+console.log(`Bank details of  maha bank:--->bank_name:-${mahBank.bankName},Location:--${mahBank.Location},ifcCode:--${mahBank.ifcCode},branchCode:--${mahBank.branchCode}`);
 console.log(`                                                                                        `);
 const axisBank=new bank("AXIS","baramati",234098,"B878");
-console.log(`Bank details of  SBI bank:--->bank_name:-${axisBank.bankName},Location:--${axisBank.Location},ifcCode:--${axisBank.ifcCode},branchCode:--${axisBank.branchCode}`);
+console.log(`Bank details of  axis bank:--->bank_name:-${axisBank.bankName},Location:--${axisBank.Location},ifcCode:--${axisBank.ifcCode},branchCode:--${axisBank.branchCode}`);
 console.log(`                                                                                        `);
 
 const YESBank=new bank("YESbank","lonere",676567,"B987");
-console.log(`Bank details of  SBI bank:--->bank_name:-${YESBank.bankName},Location:--${YESBank.Location},ifcCode:--${YESBank.ifcCode},branchCode:--${YESBank.branchCode}`);
+console.log(`Bank details of  yes bank:--->bank_name:-${YESBank.bankName},Location:--${YESBank.Location},ifcCode:--${YESBank.ifcCode},branchCode:--${YESBank.branchCode}`);
 
 console.log(`                                                                                        `);
 bank.prototype.open_time= "9 AM IST";
