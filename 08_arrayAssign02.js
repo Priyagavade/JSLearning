@@ -39,11 +39,12 @@ for (const index in arraynumber) {
 console.log(`=================ques6=======================`);
 console.log(`---------------------------------------------------------------------------------------------`);
 console.log(`Even positioned elements:----->`);
+
 for (const index in arraynumber) {
    
    if (index%2==0) {
    let evenElement=arraynumber[index];
-console.log(evenElement);
+console.log(`even postion element ${evenElement}`);
    }
 }
 let sum=0;

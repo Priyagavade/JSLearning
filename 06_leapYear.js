@@ -16,6 +16,7 @@ function checkLeapYear(year) {
 checkLeapYear(2022);
 checkLeapYear(2021);
 checkLeapYear(2024);
+checkLeapYear(1992);
 
 
 
