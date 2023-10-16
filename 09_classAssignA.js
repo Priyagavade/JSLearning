@@ -9,7 +9,7 @@ class Vehicle
         constructor(Vehicletype,color,seats,price)
         {
             this.Vehicletype = Vehicletype;
-            this.color= color;
+            this.color= color;                              
             this.seats= seats;
             this.price = price;
         }

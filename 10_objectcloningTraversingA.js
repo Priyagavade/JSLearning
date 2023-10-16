@@ -1,6 +1,6 @@
 
 
-let bankSbi =
+const bankSbi =
 {
         Branch:"Indapur",
         Location:"Raigad",
