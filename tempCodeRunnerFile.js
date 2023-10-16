@@ -1,1 +1,2 @@
-    kidsName: ["Deny", "Weny", "Rony", "Randy"]
+Object.assign(stew, address);
+console.table(stew);
