@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+</head>
+<body>
+   <h2>Local  storage </h2> 
+   <script>
+    console.log(`=====================Local storage===============`);
+        window.localStorage.setItem('name', ' Jeon Jung kook');
+        window.localStorage.setItem('city', 'seoul');
+        window.localStorage.setItem('dob','1 sep 1997' );
+        window.localStorage.setItem('pin code','13401' );
+        window.localStorage.setItem('Distric','korea' );
+
+        console.log(`======================length============================`);
+        console.log(window.localStorage.length);
+        console.log(`======================name============================`);
+        console.log(window.localStorage.getItem('name'));
+        console.log(`======================show city============================`);
+        const city = window.localStorage.getItem('city');
+        console.log('city name:-',city);
+        console.log(`======================remove city============================`);
+        window.localStorage.removeItem('city');
+        console.log(`remove city is:= `);
+
+       
+   </script>
+</body>
+</html>
