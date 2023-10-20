@@ -75,3 +75,6 @@ const arrayEmpNames = arremplyee.map( (employee)=> {
         return employee.emp_name;
     } );
     console.log(arrayEmpNames);
+
+   
+    
