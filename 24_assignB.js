@@ -70,3 +70,8 @@ arremplyee.forEach( (employee)=>{
         console.log(`employee working in :name ${employee.emp_name},departmeny: ${employee.emp_dept},salary:${employee.emp_salary},company: ${employee.emp_cmpny}`);
        
 }) 
+console.log(`--------------------------------------------=======================`);
+const arrayEmpNames = arremplyee.map( (employee)=> {
+        return employee.emp_name;
+    } );
+    console.log(arrayEmpNames);
