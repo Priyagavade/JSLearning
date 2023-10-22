@@ -66,3 +66,23 @@ for (let index = 0; index < cmpytwo.length; index++) {
 }
 let averageSalary=total/cmpytwo.length;
 console.log(`Average salary will be: ${averageSalary}`);
+
+console.log(`Step 3 ==> Average salary of employee from company 'Wipro or Infy'`);
+
+
+            // const arraySalary1 = arremplyee.filter((employee)=>{
+            //     return  employee.emp_cmpny =="wipro" || employee.emp_cmpny =="infy";
+  
+            //   })
+        
+            //  const arraySalaryEmp1 = arraySalary1.map((employee)=>{
+            //          return employee.emp_salary;
+  
+            //   })
+            //   console.log(arraySalaryEmp1);
+  
+            //   let sumSalary=0;
+            //   let countEmp1 = arraySalaryEmp1.length;
+            
+            //   arraySalaryEmp1.forEach(n=>sumSalary+=n);
+            //   console.log(`Average salary will be: ${sumSalary/countEmp1}`);

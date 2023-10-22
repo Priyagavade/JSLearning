@@ -43,6 +43,7 @@ cubes();
    }
    
  } 
-
- oddpositioncharA(`Hard work always pays back`);
+ console.log(`odd position of character=====`);
+  oddpositioncharA(`Hard work always pays back`);
+  console.log(`                                                              `);
  oddpositioncharA(`Soon i will be UI IT champ`);

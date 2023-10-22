@@ -1,4 +1,4 @@
-const PromptSync = require("prompt-sync");
+//const PromptSync = require("prompt-sync");
 
 function checkLeapYear(year) {
 
