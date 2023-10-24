@@ -27,21 +27,20 @@ const arremplyee=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,em
 console.log(`===============employe from wipro company=============`);
 
 // ***********************using for each ************************
-// const attaywipro = arremplyee.filter((employee) => {
+// const arrayWipro = arremplyee.filter((employee) => {
 //     return employee.emp_cmpny =="wipro";
 //   });
 
-//   attaywipro.forEach((employee) => {
-
-//   console.log(``Employee Name: ${attaywipro}`);
+//   arrayWipro.forEach((employee) => {
+//   console.log(`Employee Name: ${employee.emp_name}`);
 // });
-
 
 // *************************using reduce*********************
 const arrayNamesWipro = arremplyee .filter((employee) => {
     return employee.emp_cmpny =="wipro";
   });
   const wiproEmp=arrayNamesWipro.reduce((runningTotal,employee)=>{
+   // console.log(employee);
     runningTotal.push(employee.emp_name);
     return runningTotal;
   },[])
