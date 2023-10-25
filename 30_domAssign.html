@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+                <h1>html and javascript  are crucial technology</h1>
+                <p>the web would not work without them</p>
+        </div>
+
+        <div id="advantages">
+                <ul>
+                    <li>flexiable</li>
+                    <li>available</li>
+                    <li>magical</li>
+                </ul>
+        </div>
+    </main>
+    <script>
+        //code or query of above html page
+        console.log(`=============heading store the h1 element==============`);
+        const elementH1 = document.querySelectorAll('h1');
+        console.log(elementH1[0]);
+
+        console.log(`=============store the second list element==============`);
+        const seconslistindex=document.getElementsByTagName('li');
+         console.log(seconslistindex[1].innerHTML);
+
+         console.log(`=============store div with the id==============`);
+        const divwithid = document.querySelectorAll('#advantages');
+        console.log(divwithid[0].innerHTML);
+      
+
+        
+       
+    </script>
+</body>
+</html>
