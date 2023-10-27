@@ -11,15 +11,19 @@ const postInString = `{
 }`
 console.log(typeof postInString);
 const post = JSON.parse(postInString);
+console.log(`==========================================`);
 console.log(typeof post);
 console.log(post);
+console.log(`==========================================`);
 
 const person = {
     name: "Jenny",
     age: 34,
     city: "Pune" 
 }
+console.log(`==========================================`);
 console.log(typeof person);
+console.log(`==========================================`);
 const personJson =JSON.stringify(person);
 console.log(typeof personJson);
 console.log(personJson);

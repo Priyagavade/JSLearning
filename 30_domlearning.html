@@ -1,74 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document object model </title>
+    <title>DOM - Document Object Model</title>
 </head>
 <body>
     <h2 id="title"> Learning DOM </h2>
-    <h2> My tech stack is: </h2>
-    <ul>
+    <h2 id="listHeading"> My tech stack is: </h2>
+    <ul id="list">
         <li class="techStack">HTML </li>
         <li class="techStack">CSS</li>
-        <li>GIT and GITHUB</li>
-        <li>JavaScript</li>
+        <li id="git">GIT and GITHUB</li>
+        <li id="javaScript">JavaScript</li>
     </ul>
-  
-    <script>
-        
+    <br>
+    <a href="https://www.facebook.com/zoom" target="_blank" id="profile"> My Profile </a>
+    <br> <br>
+    <!-- <button id="buttonClick" onclick="clicked()" onmousemove="over()">Hey Click Me </button> -->
+    <button id="buttonClick">Hey Click Me </button>
 
-// const elementTitle = document.getElementById('title');
-// console.log(elementTitle);
-// console.log(elementTitle.innerHTML);
-
-console.log('======= DOM API getElementById() ===========');
-const elementTitle = document.getElementById('title');
-console.log(elementTitle.innerHTML);
-
-console.log('======= DOM API getElementsByTagName() ===========');
-const elementH2 = document.getElementsByTagName('h2');
-console.log(elementH2);
-console.log(elementH2[0].innerHTML);
-console.log(elementH2[1].innerHTML);
-
-console.log('======= DOM API getElementsByClassName() ===========');
-const elementsTechStack=document.getElementsByClassName('techStack');
-console.log(elementsTechStack);
-console.log(elementsTechStack[0].innerHTML);
-console.log(elementsTechStack[1].innerHTML);
-
-
-console.log('======= DOM API querySelector() ===========');
-const h2Element = document.querySelector('h2'); // Selecting element by tag name or element name
-console.log(h2Element.innerHTML);
-
-console.log('Selecting an element by id');
-const h2ElementTitle = document.querySelector('#title');
-console.log(h2ElementTitle.innerHTML);
-
-console.log('Selecting an element by class name');
-const elementTechStack = document.querySelector('.techStack');
-console.log(elementTechStack.innerHTML);
-
-// select all element in one time 
-console.log('======= DOM API querySelectorAll() ===========');
-const h2ElementAll = document.querySelectorAll('h2');
-console.log(h2ElementAll[0].innerHTML);
-console.log(h2ElementAll[1].innerHTML);
-
-console.log('querySelectorAll() with class');
-const elementAll = document.querySelectorAll('.techStack');
-console.log(elementAll[0].innerHTML);
-console.log(elementAll[1].innerHTML);
-
-
-console.log(`========== Update or change the text of an element ==================`);
-const titleElement = document.querySelector('#title');
-titleElement.innerHTML = 'Learning API - Document Object Model';
-console.log(titleElement.innerHTML);
-
-    </script>
-   
-    <!-- <script src="30_script.js"></script> -->
+    <script src="30_script.js"></script>
 </body>
 </html>

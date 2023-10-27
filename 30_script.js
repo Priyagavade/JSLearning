@@ -49,3 +49,41 @@ console.log(`========== Update or change the text of an element ================
 const titleElement = document.querySelector('#title');
 titleElement.innerHTML = 'Learning API - Document Object Model';
 console.log(titleElement.innerHTML);
+
+
+console.log(`========== Creating a node ==================`);
+const liElement = document.createElement('li');
+const textNode = document.createTextNode('Angular or React');
+liElement.appendChild(textNode)
+const listElement = document.querySelector('#list');
+listElement.appendChild(liElement);
+
+
+
+
+console.log(`========== Removing a node ==================`);
+const listEle = document.querySelector('#list');
+const gitElement = document.querySelector('#git');
+listEle.removeChild(gitElement);
+
+
+const btnElement = document.querySelector('#buttonClick');
+btnElement.addEventListener('click', ()=> {
+    console.log('I will hit you back');
+    alert('Wait, you clicked me.. Let me hit you back ');
+} );
+
+const liJavaScript = document.querySelector('#javaScript');
+liJavaScript.addEventListener('mouseover', ()=>{
+    liJavaScript.style.color = 'blue';
+    liJavaScript.style.fontSize = '20px';
+} );
+
+
+function clicked(){
+    alert('You clicked on button ');
+    console.log('You clicked on button ');
+}
+function over(){
+    alert('Hey.. mouse is on me');
+}
