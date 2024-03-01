@@ -9,10 +9,10 @@ const arrafilter = arraynum.filter( (currentValue )=> {
 console.log(`number are greatter than 50 => ${arrafilter}`);
 console.log(`-----------------------------------------------------------------------------`);
 
-const arraeven = arraynum.filter( (currentValue )=> {
+const arrayodd = arraynum.filter( (currentValue )=> {
     return currentValue%2==1;
 } );
-console.log(`number are odd  => ${arraeven}`);
+console.log(`number are odd  => ${arrayodd}`);
 console.log(`-----------------------------------------------------------------------------`);
 
 
